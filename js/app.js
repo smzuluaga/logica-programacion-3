@@ -19,7 +19,7 @@ function calcular() {
     let dataFromValue = parseFloat(dataFrom.value);
 
     if (!Number(dataFromValue)){
-        alert ("El dato que ingreso no es un número. \nIngrese un valor válido")
+        showFactorial.innerHTML= "El dato que ingreso no es un número. \nIngrese un valor válido";
         document.getElementById("dataFrom").value = "";
         document.getElementById("showTemperatura1").innerHTML = "";
         document.getElementById("showTemperatura2").innerHTML = "";
@@ -28,7 +28,7 @@ function calcular() {
     }
 
     if (dataFromValue % 1 !== 0){
-        alert ("El número que ingresó no es entero. Ingrese un número entero para continuar");
+        showFactorial.innerHTML= "El número que ingresó no es entero. Ingrese un número entero para continuar";
         return;
     }
     
@@ -46,3 +46,9 @@ function limpiar () {
     dataFrom.value="";
     showFactorial.innerHTML="";
 }
+
+let backbutton = document.getElementById("back-button");
+
+backbutton.addEventListener('click', () => {
+    window.location='./index.html';
+})
