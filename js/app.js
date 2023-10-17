@@ -49,6 +49,6 @@ function limpiar () {
 
 let backbutton = document.getElementById("back-button");
 
-backbutton.addEventListener('click', () => {
-    window.location='./index.html';
-})
+// backbutton.addEventListener('click', () => {
+//     window.location='./index.html';
+// })
