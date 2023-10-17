@@ -8,3 +8,4 @@ Por favor seguir los siguientes pasos para una correcta ejecición de las funcio
     * git clone https://github.com/smzuluaga/logica-programacion-3.git
 
 2. Abrir el archivo 'index.html' del fichero 'logica-programacion-3'.
+   NOTA: NO EJECUTAR EN LIVE SERVER, EL ARCHIVO DEL PUNTO ANTERIOR DEBE SER ABIERTO DIRECTAMENTE EN EL NAVEGADOR.
