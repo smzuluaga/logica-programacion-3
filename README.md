@@ -5,4 +5,4 @@ Por favor seguir los siguientes pasos para una correcta ejecición de las funcio
     * git clone https://github.com/smzuluaga/logica-programacion-2.git
     * git clone https://github.com/smzuluaga/logica-programacion-3.git
 
-2. abrir el index.html de logica-programacion-3.
+2. abrir el archivo 'index.html' del fichero 'logica-programacion-3'.
